@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bengaluru City Bus Info</title>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/b112b5a69d.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="../Bootstarp 5/bootstrap.min.css"> -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon-16x16.png">
+
+    <script src="./app.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#">
+            <h3 id="webname">Bangalore City Bus Info</h3>
+        </a>
+        <div class="nav-items">
+            <a href="#">Home</a>
+            <a href="#routes">Routes</a>
+            <a href="" id="signin">Sign In</a>
+        </div>
+    </nav>
+
+    <section class="search-box">
+        <div class="search-form">
+            <h2>Explore
+                <a href="https://en.wikipedia.org/wiki/Bangalore" target="_blank">
+                    <span>Bangalore!</span>
+                </a>
+            </h2>
+
+            <p>Search your best route to do a safe travel :)</p>
+
+            <form action="../Bus Routes/index.html" method="get" autocomplete="off">
+                <div class="form-group">
+                    <input type="search" name="from" id="from" placeholder="FROM">
+                </div>
+                <div class="form-group">
+                    <input type="search" name="to" id="to" placeholder="TO">
+                </div>
+                <button id="search-btn" type="submit">SEARCH</button>
+            </form>
+        </div>
+    </section>
+
+    <header class="main-header">
+        <h1>Bangalore</span> City Bus Info (BMTC)</h1>
+    </header>
+
+    <div class="toggleBtn">
+        <div class="circle">
+            <i class="fa fa-moon-o" aria-hidden="true" id="dicon1"></i>
+            <!-- <i class="fa fa-lightbulb-o" aria-hidden="true" id="dicon2"></i> -->
+        </div>
+    </div>
+
+    <div class="body-content">
+        <!-- <div class="line"></div> -->
+        <h2>Why is this?</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit delectus praesentium enim
+            laudantium pariatur saepe ut eos consequuntur. Libero nihil a quas iusto id distinctio commodi laboriosam,
+            deleniti optio!
+            Odio perferendis corrupti alias dignissimos. Corporis illo, magnam beatae natus tenetur inventore expedita,
+            quia doloribus dolores magni quaerat harum aperiam rem ab fugit! Voluptatum at perspiciatis voluptas sint
+            esse culpa.
+            Pariatur ex tempore nihil similique perferendis porro rerum nisi, officiis soluta hic! Doloremque, obcaecati
+            nostrum. Perspiciatis, vel. Praesentium earum cumque inventore ex rem, sunt, officia sint ab, reprehenderit
+            vero officiis!
+            Quo temporibus excepturi iure nobis praesentium. Inventore itaque quidem eligendi cumque facilis fuga
+            ratione laudantium magni temporibus officiis quis, minus quos architecto voluptates totam aspernatur. Ad
+            repudiandae voluptas praesentium quaerat.
+            Aut vero, adipisci hic sunt deserunt, nihil minus eveniet distinctio nesciunt illo possimus similique
+            minima. Dignissimos, excepturi eos molestiae quam assumenda est repellendus libero porro soluta quis
+            possimus quia? Repellendus!
+            Corporis dolorem quo repellendus voluptatum, inventore, a, iste dignissimos aliquid debitis consequuntur
+            blanditiis aut consectetur laudantium. Animi id et qui magnam ratione rem amet quia enim officiis, vel
+            praesentium voluptas.
+            Suscipit tempore, rem aperiam hic impedit, dolor cupiditate velit repellat quisquam odio totam, consectetur
+            consequatur! Alias amet obcaecati nobis autem eligendi odio ullam debitis harum officia, similique eveniet
+            consequatur temporibus.
+            A dolor cum illum perferendis, mollitia ipsam facere, voluptate aliquam pariatur quaerat provident soluta
+            earum necessitatibus quod reiciendis suscipit. Vel amet, earum quae minus iusto dolores tenetur ipsa
+            maiores?
+            <br><br>
+            Corporis accusantium modi explicabo expedita, in deleniti ut nesciunt reprehenderit architecto ducimus quam
+            quidem reiciendis aperiam assumenda consequuntur quod unde! Eligendi porro voluptates aliquid ipsum harum
+            magnam labore deserunt a!
+            Tempora ratione et error dolores itaque quaerat perspiciatis autem, commodi eaque explicabo illo esse illum
+            aperiam vel reiciendis excepturi nihil distinctio aut sunt nesciunt assumenda, eveniet iste! Cumque,
+            corrupti tenetur.
+            Tenetur, praesentium ratione culpa ab, unde eaque aliquid rerum distinctio aperiam cumque explicabo debitis
+            totam. Ratione itaque quasi natus saepe sed facilis reprehenderit repellat aliquid assumenda, quae, eos quam
+            perferendis!
+            Ab maiores atque dolores officia vitae corrupti dolore labore enim aliquam et nemo similique, iure
+            necessitatibus repellendus cupiditate quaerat a illum temporibus consequatur. Sunt voluptatum itaque nam
+            quaerat, exercitationem nostrum.
+            Beatae blanditiis esse at laborum aut facilis. Nesciunt magni ut, neque odit quasi sed praesentium debitis,
+            iste velit itaque, incidunt enim? Culpa repellat quis magnam fuga, nihil voluptatem est quasi!
+            Eos excepturi rerum officiis consectetur eius voluptate adipisci vel eligendi perspiciatis veritatis
+            possimus harum voluptas aperiam, quis laboriosam sint, a accusantium corrupti odit! Optio dignissimos
+            molestiae blanditiis maxime rerum incidunt!
+            Repellat soluta cum similique culpa autem repudiandae labore accusantium dolorem odit recusandae excepturi
+            illum aspernatur voluptatem velit doloribus quidem, quam molestiae voluptatum eaque dolor! Non soluta totam
+            ab! Provident, in!
+            Corporis voluptatem consequuntur, pariatur enim eaque vitae eos rem vero perspiciatis ipsam modi in impedit
+            iste rerum voluptates aspernatur amet iure ut adipisci corrupti numquam. Officiis iste delectus nam amet!
+            <span id="routes"></span>
+        </p>
+
+        <div class="line"></div>
+        <h2>What are the routes?</h2>
+        <p>Repellat autem corrupti delectus deleniti similique! Ad modi culpa adipisci placeat earum id eos, et, quo
+            repellat, voluptatibus quidem vitae. Eligendi ullam placeat vero dolores ipsam ad odio. Id, repellat.
+            Magni deleniti molestias sint similique dolor, aliquid ab doloribus explicabo asperiores placeat eum quo
+            consectetur exercitationem atque suscipit quam dignissimos adipisci praesentium quaerat incidunt quas ipsam
+            ipsa. Reiciendis, beatae doloribus?
+            Non, soluta ad dignissimos excepturi nemo iure. Necessitatibus perspiciatis porro quia ipsa asperiores
+            impedit voluptatem ullam pariatur quisquam, quam exercitationem inventore vitae, minus officia error
+            molestias! Nihil eveniet laudantium expedita.
+            Provident, quasi ea ipsa accusantium repudiandae optio, et aut nemo doloribus, officiis quis error culpa
+            corporis? Consequatur quod nisi facere ut, velit placeat quaerat molestiae dolor explicabo ullam suscipit
+            corporis.
+            Explicabo molestiae necessitatibus enim laborum minima architecto magnam ratione accusantium, voluptates
+            totam nostrum dolores similique veritatis nobis mollitia sapiente ea sed, quos labore quas aut, natus
+            commodi libero. In, repellat.
+            Nisi mollitia quae aperiam magnam necessitatibus temporibus soluta ea suscipit nostrum doloribus? Quasi
+            error eius iure nam aperiam dolore sapiente incidunt ex, pariatur ullam magni. Blanditiis similique
+            reiciendis beatae deserunt?
+            Voluptas, iure nisi quis impedit veritatis ex vitae temporibus repudiandae! Beatae excepturi rem
+            necessitatibus. Dolorem vitae temporibus esse, eaque possimus veritatis accusamus officia fuga voluptatum
+            harum, porro, ratione facilis dolores?
+            <br><br>
+            Officiis numquam laborum officia possimus nesciunt eaque voluptas sunt rem fugiat iure, cumque vero dolorum
+            perferendis tempore culpa dicta nemo reiciendis libero. Ea quaerat deserunt sunt quam, similique error
+            magnam?
+            Accusantium, impedit? Magni beatae, odio accusantium vitae neque cum explicabo recusandae dicta, aliquam est
+            perspiciatis voluptatibus, autem sequi! Laboriosam temporibus quo expedita fuga soluta? Dolor, perspiciatis
+            earum! Laborum, omnis necessitatibus.
+            Quia possimus dolorem impedit. Modi molestiae expedita odio mollitia dolorem repellat, porro pariatur illo
+            officiis suscipit laudantium nulla repellendus tenetur quo praesentium perferendis et veritatis alias ad
+            voluptate magnam saepe!
+            Harum eius ea aliquam temporibus id ullam quis quasi atque maxime distinctio. Excepturi repellendus
+            consequuntur dolores ea, consectetur odit rerum consequatur sunt nihil velit vitae ex! Inventore, sequi
+            dolorem! Temporibus.
+            Reiciendis deserunt perferendis quam, itaque amet, dolorum sit assumenda mollitia asperiores ullam quod
+            sequi error dolor placeat voluptas adipisci similique. Cupiditate, excepturi ex non quasi quae deserunt!
+            Voluptate, veniam veritatis?
+            Corporis eum reiciendis dolore consequatur voluptate cumque, itaque aperiam, iusto iure qui amet distinctio
+            doloribus debitis officiis ab animi doloremque, natus labore optio incidunt accusantium perspiciatis quas
+            enim. Eius, illo.
+            Provident dolor cum animi voluptate cupiditate excepturi obcaecati hic, adipisci magnam nihil corporis natus
+            neque molestiae voluptatum ea alias totam debitis molestias laborum inventore impedit? Labore debitis quo
+            odio facilis.
+            A mollitia, at ad quod qui fugit quo necessitatibus aut sequi quisquam dignissimos voluptatum aperiam eos,
+            exercitationem ratione consectetur voluptatibus ipsa libero nobis, laborum inventore expedita dolor
+            aspernatur magnam. Adipisci?
+            Sit, delectus autem hic officiis eaque inventore harum iusto est amet debitis tenetur laudantium, facilis,
+            nemo qui quaerat neque cum sint corrupti. Tempora placeat nulla, deserunt illo unde distinctio.
+        </p>
+
+        <div class="line"></div>
+        <h2>How to use?</h2>
+        <p>Velit, labore explicabo. Consequuntur corporis debitis veritatis ipsam, delectus, repudiandae molestiae
+            dolorum aspernatur aliquid distinctio pariatur maxime illum exercitationem adipisci modi iure repellendus
+            fuga nemo. Modi reiciendis quis voluptatibus consectetur.
+            Commodi consectetur placeat neque quasi impedit saepe quaerat eaque sit, deleniti esse, laudantium non illo
+            recusandae odit a. Eos qui debitis culpa eius beatae id similique perferendis ut repellendus est!
+            Officia at repudiandae perferendis harum a qui tempora eaque fugit deserunt quisquam pariatur alias, tempore
+            repellat hic, dolore minus quia. Minus porro vel itaque natus aliquam repellat! Illo, provident eum!
+            Maiores, hic? Veritatis distinctio ipsum beatae aspernatur, quidem esse expedita similique eveniet minima
+            doloribus velit est? Ipsam voluptas a animi commodi dolor ullam ducimus quidem vel voluptatibus, praesentium
+            consequuntur provident.
+            Reiciendis quibusdam eum ab. Facere earum ducimus ex soluta impedit, expedita odio eos nobis dolore vitae
+            quaerat quam! Esse cum vel adipisci repellat minus reprehenderit odio quibusdam nostrum impedit odit?
+            Dolore repellendus eum dignissimos, facilis dolores natus recusandae excepturi vero illum vitae ipsum
+            laudantium voluptate error repudiandae! Nostrum distinctio expedita facilis voluptas maiores animi adipisci
+            perspiciatis natus ducimus, explicabo fuga.
+            Hic voluptas facilis fugiat quis dicta, quos voluptate sed facere culpa quisquam, quo id recusandae minus
+            beatae repudiandae temporibus doloremque tempora at soluta maiores itaque? Quam suscipit laborum molestias
+            fugiat?
+        </p>
+    </div>
+    <footer class="main-footer">
+
+        <div class="other-details">
+
+            <div class="proiles">
+                <a href="#">
+                    <h3>Bangalore City Bus Info</h3>
+                </a>
+            </div>
+
+            <div class="contact-title">
+                <ul>
+                    <li>Email</li>
+                    <li>Mobile</li>
+                </ul>
+            </div>
+
+            <div class="contact-deatils">
+                <ul>
+                    <li>bang.citybus@info.in</li>
+                    <li>9XXX5 5XXX9</li>
+                </ul>
+            </div>
+
+            <div class="social-medias">
+                <p>Available On</p>
+                <div class="icons">
+                    <a href=""><i class="fa fa-youtube-play"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyrights">
+            <p>&#169; 2023 bang.citybus@info All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        const busFrom = document.querySelector("#from");
+        const busTo = document.querySelector("#to");
+        const search = document.querySelector("#search-btn");
+
+        let toggleBtn = document.querySelector(".toggleBtn");
+        let body = document.querySelector("body");
+        let dark = document.querySelector("#dicon1")
+        let bright = document.querySelector("#dicon2")
+
+        search.disabled = true;
+
+        busFrom.addEventListener("keyup", buttonState);
+        busTo.addEventListener("keyup", buttonState);
+
+        function buttonState() {
+            if (busFrom.value === "" || busTo.value === "") {
+                search.disabled = true;
+            } else {
+                search.disabled = false;
+            }
+        }
+
+        toggleBtn.onclick = function () {
+            body.classList.toggle("dark");
+        }
+    </script>
+</body>
+
+</html>
